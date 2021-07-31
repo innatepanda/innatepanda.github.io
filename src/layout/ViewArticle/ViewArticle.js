@@ -143,7 +143,7 @@ class ViewArticle extends Component{
                                 db.collection("posts").doc(this.props.match.params.id).delete().then(() => {
                                     
                                     console.log("Document successfully deleted!");
-                                    this.props.history.push("/")
+                                    this.props.history.push( "/xorblog/")
                                 }).catch((error) => {
                                     console.error("Error removing document: ", error);
                                 });

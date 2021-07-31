@@ -54,7 +54,7 @@ class RouterManager extends Component{
                             <div>
                                 <Heading {...this.props} showmodal={(p)=>{this.modalref.current.showmodal(p)}} searchword={word=>this.searchword(word)}/>     
                                 <Switch>
-                                    <Route path="/" exact>
+                                    <Route path= "/xorblog/" >
                                         <Main {...this.props} showmodal={(p)=>{this.modalref.current.showmodal(p)}}/>
                                     </Route>
                                     <Route path="/article/:id" >

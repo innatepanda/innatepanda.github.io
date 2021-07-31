@@ -88,7 +88,7 @@ const db=firebase.firestore();
                 <div>
                   
                   <Navbar dark expand="md" className="header">
-                    <NavbarBrand href="/">XoRphilic</NavbarBrand>
+                    <NavbarBrand href= "/xorblog/">XoRphilic</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.open} navbar>
                       <Nav className="ml-auto" navbar>
