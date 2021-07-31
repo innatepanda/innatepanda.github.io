@@ -1,0 +1,37 @@
+.header{
+    position: fixed; /* Stay in place */
+     z-index: 7; /* Sit on top */
+     background-color: rgb(63, 44, 75);
+     color: var(--purple) !important;
+     
+     top: 0;
+     width:100%;
+     padding-left:4%;
+     padding-right:4%;
+}
+.search-bar{
+    display: grid;
+    grid-template-columns: 80% auto;
+    height:30px;
+    
+}
+.search-bar input{
+    height:30px;
+}
+.search-bar button svg{
+    margin-top:-16px;
+    
+}
+.header .btn-none{
+    color:var(--black);
+    text-align:left;
+    width:93%;
+    
+}
+.dropdown .btn-none:hover{
+    color:var(--purple);
+    background-color: rgb(231, 231, 231);
+    
+    
+    
+}

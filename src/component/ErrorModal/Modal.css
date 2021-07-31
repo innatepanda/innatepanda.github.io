@@ -1,0 +1,50 @@
+
+
+.modal{
+    display:none;
+     position: fixed; /* Stay in place */
+     z-index: 9; /* Sit on top */
+     color: white;
+     opacity:1;
+     
+     top: 0;
+     width:60%;
+     
+     
+     
+    
+   
+ }
+  .true{
+    display: block;
+     
+     
+ }
+ .content{
+     position: fixed;
+     top: 0;
+     padding:10px;
+     
+     animation-name: slideIn;
+     animation-duration: 0.4s;
+ }
+ 
+  .green{
+     color:white !important;
+     background-color: green;
+     
+ }
+ .red{
+     color:white !important;
+     background-color: red;
+     
+ }
+ 
+ 
+ @keyframes slideIn {
+     from {top: -300px; opacity: 0} 
+     to {top: 0; opacity: 1}
+   }
+  
+ 
+ 

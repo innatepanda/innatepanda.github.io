@@ -1,0 +1,70 @@
+.settings-main{
+    padding:15%;
+    padding-top:10%;
+    text-align:left;
+
+    
+}
+.settings-section{
+    display: grid;
+    grid-template-columns: 20% auto;
+    margin-bottom:10%;
+}
+Label{
+
+    margin-bottom:1%;
+}
+
+.settings-main h2:after{
+    content:"\A";
+    
+    width:100px;
+    height:6px;
+    
+    background: var(--purple);
+    display:inline-block;
+}
+Button{
+    background-color:var(--purple) ;
+    color:var(--white) ;
+    padding:10px;
+    
+    box-shadow:none;
+    border:none;
+    border-radius: 5px;
+}
+
+.reactquill-bg{
+    background-color: var(--white);
+    color:var(--black);
+}
+.reactquill-bg button{
+    background: none;
+}
+.user-main{
+    display: grid;
+    grid-template-columns: 45% auto;
+    gap:10%;
+    width:90%;
+    margin:auto;
+    padding-top:10%;
+    text-align:left;
+    padding-bottom:10%;
+}
+.user-bg{
+    
+}
+.description{
+ text-align: justify;
+
+}
+
+.description p{
+    margin:0;
+}
+.btns{
+    width:70%;
+    margin: auto;
+    text-align: center;
+    
+}

@@ -1,0 +1,21 @@
+.search-main{
+    width:70%;
+    padding-top:10%;
+    margin:auto
+}
+.each-article{
+    width:90%;
+    display: grid;
+    grid-template-columns: 30px auto;
+    gap:10px;
+    margin-bottom:10%;
+}
+.side-number{
+    color:var(--purple);
+    min-width:30px;
+    max-width:30px;
+    margin-left:-30px;
+    font-size:4rem;
+    text-align:right;
+    
+}

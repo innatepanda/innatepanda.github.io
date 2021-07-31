@@ -1,0 +1,26 @@
+.edit-main{
+    display: grid;
+    grid-template-columns: 15% auto 5%;
+    gap:1%;
+    margin:auto;
+    padding-top:10%;
+    text-align:left;
+    padding-bottom:40%;
+}
+.edit-field{
+    display:grid;
+    grid-template-columns: 15% auto 5%;
+    gap:1%;
+    margin-bottom:3%;
+}
+.small-text-purple{
+    color:var(--lightpurple);
+    
+}
+.edit-btn{
+    float:right;
+    margin-right:7%;
+}
+.edit-label{
+    font-size:1.1rem;
+}
